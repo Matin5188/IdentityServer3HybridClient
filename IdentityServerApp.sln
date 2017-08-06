@@ -30,20 +30,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://matin05.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = IdentityAuthServer\\IdentityAuthServer.csproj
-		SccProjectName1 = IdentityAuthServer
-		SccLocalPath1 = IdentityAuthServer
-		SccProjectUniqueName2 = IdentityServer.Client.API\\IdentityServer.Client.API.csproj
-		SccProjectName2 = IdentityServer.Client.API
-		SccLocalPath2 = IdentityServer.Client.API
-		SccProjectUniqueName3 = IdentityServer.Client.MVC\\IdentityServer.Client.MVC.csproj
-		SccProjectName3 = IdentityServer.Client.MVC
-		SccLocalPath3 = IdentityServer.Client.MVC
-	EndGlobalSection
+	EndGlobalSection	
 EndGlobal
