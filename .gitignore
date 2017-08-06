@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/IdentityAuthServer/bin
+/IdentityAuthServer/obj/Debug
+/IdentityServer.Client.API/obj/Debug
+/IdentityServer.Client.API/bin
+/IdentityServer.Client.MVC/obj/Debug
+/IdentityServer.Client.MVC/bin
+/packages
+/~$GitHubVSTemp$~.sln
+/.vs
