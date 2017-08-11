@@ -11,3 +11,5 @@
 /packages
 /~$GitHubVSTemp$~.sln
 /.vs
+/IdentityServer.Client.WebForms/obj/Debug
+/IdentityServer.Client.WebForms/bin

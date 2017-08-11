@@ -9,18 +9,17 @@ namespace ScottBrady91.IdentityServer3.Example.Configuration
         public static IEnumerable<Client> Get()
         {
             return new List<Client>
-            {
-                // this is implicit client declaration, but not being used in this solution for now.
+            {                
                 new Client
                 {
                     ClientId = @"implicitclient",
-                    ClientName = @"Example Implicit Client",
+                    ClientName = @"Implicit Web Form Client",
                     Enabled = true,
                     Flow = Flows.Implicit,
                     RequireConsent = true,
                     AllowRememberConsent = true,
-                    RedirectUris = new List<string> {"https://localhost:44304/account/signInCallback"},
-                    PostLogoutRedirectUris = new List<string> {"https://localhost:44304/"},
+                    RedirectUris = new List<string> {"https://localhost:44349/"},
+                    PostLogoutRedirectUris = new List<string> {"https://localhost:44349/"},
                     AllowedScopes = 
                         new List<string>
                         {
